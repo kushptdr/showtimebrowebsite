@@ -19,6 +19,12 @@ function Navbar() {
           >
             Events
           </NavLink>
+          <NavLink
+            to="/search-jobs"
+            className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
+          >
+            Search Jobs
+          </NavLink>
         </nav>
       </div>
     </header>
